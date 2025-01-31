@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: electricity-consumption-api
+Version: 0.1.0
+Requires-Dist: fastapi==0.112.0
+Requires-Dist: pydantic==2.8.2
+Requires-Dist: starlette==0.37.2
+Requires-Dist: uvicorn[standard]==0.30.6

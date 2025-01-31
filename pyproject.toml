@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gee-water"
+version = "0.1.0"
+dynamic = ["dependencies"]
+
+
+[tool.setuptools]
+py-modules = ["api"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}

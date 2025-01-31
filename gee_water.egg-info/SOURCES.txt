@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+requirements.txt
+gee_water.egg-info/PKG-INFO
+gee_water.egg-info/SOURCES.txt
+gee_water.egg-info/dependency_links.txt
+gee_water.egg-info/requires.txt
+gee_water.egg-info/top_level.txt

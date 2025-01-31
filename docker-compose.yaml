@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  energy_api_monthly:
+    container_name: energy_api_monthly
+    build: .
+    working_dir: /app
+    command: uvicorn api.app:app --host 0.0.0.0 --reload
+    volumes:
+      - ./api:/app/api
+    ports:
+      - 8000:8000
+    restart: on-failure

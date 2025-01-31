@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+requirements.txt
+electricity_consumption_api.egg-info/PKG-INFO
+electricity_consumption_api.egg-info/SOURCES.txt
+electricity_consumption_api.egg-info/dependency_links.txt
+electricity_consumption_api.egg-info/requires.txt
+electricity_consumption_api.egg-info/top_level.txt

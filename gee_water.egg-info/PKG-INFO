@@ -1,0 +1,10 @@
+Metadata-Version: 2.2
+Name: gee-water
+Version: 0.1.0
+Requires-Dist: fastapi==0.112.0
+Requires-Dist: pydantic==2.8.2
+Requires-Dist: starlette==0.37.2
+Requires-Dist: uvicorn[standard]==0.30.6
+Requires-Dist: joblib==1.4.2
+Requires-Dist: pandas==2.2.2
+Requires-Dist: scikit-learn==1.5.1
